@@ -32,7 +32,7 @@ function query({ question, thread_id }) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       input: question,
-      model: 'permaweb_cookbook_v0.3.2',
+      model: 'permaweb_cookbook_v0.3.3',
       thread_id: thread_id
     })
   }).then(res => res.json())
