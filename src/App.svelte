@@ -12,6 +12,7 @@
     if (current === "submitting") {
       openSubmitModal = true;
     } else {
+      setTimeout(() => window.hljs.highlightAll(), 100);
       openSubmitModal = false;
     }
   }
@@ -25,7 +26,7 @@
 {#if current !== "error"}
   <div class="hero min-h-screen">
     <div class="hero-content">
-      <div class="flex flex-col w-full min-w-[700px]">
+      <div class="flex flex-col w-full md:min-w-[700px]">
         <h1 class="text-3xl font-mono mb-16 text-center">Cookbook Sidekick</h1>
         <form
           on:submit|preventDefault={handleSubmit}

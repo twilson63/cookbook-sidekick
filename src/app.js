@@ -36,6 +36,6 @@ function query({ question, thread_id }) {
       thread_id: thread_id
     })
   }).then(res => res.json())
-    .then(x => (console.log(x), x))
+  //.then(x => (console.log(x), x))
 
 }
