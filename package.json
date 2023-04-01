@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
+    "arweave": "^1.13.5",
+    "arweave-wallet-connector": "^1.0.2",
     "crocks": "^0.12.4",
     "dompurify": "^3.0.1",
     "marked": "^4.3.0",
