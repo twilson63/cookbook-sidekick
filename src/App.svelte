@@ -53,12 +53,16 @@
             alt="cookbook-logo"
           />
         </div>
-        <h1 class="text-3xl font-mono mb-16 text-center">
-          Permaweb Cookbook Sidekick
+        <div class="text-center">
+          <div class="badge badge-outline text-center">Experimental</div>
+        </div>
+        <h1 class="text-3xl font-mono text-center">
+          Permaweb Developer Sidekick
         </h1>
+
         <form
           on:submit|preventDefault={handleSubmit}
-          class="flex flex-col space-y-2 w-full"
+          class="mt-16 flex flex-col space-y-2 w-full"
         >
           <input
             name="question"

@@ -31,7 +31,9 @@ function toHTML(header, hx) {
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
-    
+  
+    <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/github-dark.min.css">
+
     <script src="https://arweave.net/_d-GsX52lw7Sdg8hgKKWf_lLohaQ8f4zIYmXxHWMgQc"></script>
     <script src="https://unpkg.com/highlightjs-svelte@1.0.6/dist/svelte.min.js"></script>
     <script type="module">hljs.highlightAll();</script>
